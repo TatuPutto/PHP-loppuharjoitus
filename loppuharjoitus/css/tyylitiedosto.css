@@ -1,0 +1,297 @@
+﻿body{
+	width:1800px;
+    height:1500px;
+    margin: 0 auto;
+}
+
+#main_wrapper{
+	border-style: double;
+    width:1000px;
+    height:1000px;
+    margin:0 auto;
+}
+
+
+#header{
+    background-color:#DFDFDF;
+    padding-top:5px;
+	text-align:center;
+	height: 120px;
+}
+
+
+#login{
+    color:black;
+    text-align:right;
+	position: relative;
+	top: -60px;
+	left: -50px;
+	z-index: 100;
+}
+
+#kategoriat{
+    background-color:white;
+	float: left; 
+	width: 20%;
+	height: 400px;
+} 
+
+#main{
+	background-color:#E9E8E8;
+	width: 80%;
+	height: 844px;
+	float:right;
+}
+
+#sivunumero{
+	position: relative;
+	left: 7px;
+	top: 750px; 
+	font-size: 20px;
+}
+
+#tuotetiedot_main{
+	background-color:#E4E4E4;
+	width: 80%;
+	height: 400px;
+	float:right;
+}
+
+#lisaa_ostoskoriin {
+    -moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	padding:8px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+.tuotenimi{
+	background-color: white;
+	border: 1px solid black ;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.kuva{
+	border: 1px solid black ;
+	position: relative;
+	margin-left: 10px;
+	width: 250px;
+	height: 188px;
+}
+
+.tuotetiedot{
+	background-color: white;
+	border: 1px solid black ;
+	position: relative;
+	top: -190px;
+	left: 272px;
+	height: 188px;
+	width: 300px;
+	font-size: 18px;
+}
+
+.varastosaldo{
+	background-color: white;
+	border: 1px solid black ;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	top: -366px;
+	height: 188px;
+	width: 205px;
+	font-size: 18px;
+}
+
+.tuotekuvaus{
+	background-color: white;
+	border: 1px solid black ;
+	position: relative;
+	float: left;
+	top: -165px;
+	left: 210px;
+	height: 150px;
+	width: 778px;
+	font-size: 18px;
+}
+
+
+#etusivu_box{
+	border-style: solid;
+	border-width: 2px;
+	background-color: white;
+	height: 130px;
+	width: 387px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+#kuva_box{
+	width: 170px;
+	height: 130px;
+	display: inline;
+	vertical-align:middle;
+}
+
+#text_box{
+	font-size: 16px;
+	height: 50px;
+	width: 210px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#kuvaus_box{
+	font-size: 13px;
+}
+
+#ostoskori_box{
+	border-style: solid;
+	border-width: 2px;
+	background-color: white;
+	height: 60px;
+	width: 785px;
+	margin-bottom: 1px;
+	margin-left: 5px;
+}
+
+#ostoskori_kuva_box{
+	width: 80px;
+	height: 60px;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+#ostoskori_text_box{
+	height: 60px;
+	width: 600px;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+#poista_ostoskorista{
+	display: inline-block;
+	vertical-align:middle;
+}
+
+#tilaukset_box{
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	height: 25px;
+	width: 785px;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a:link {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#0000FF;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+
+.offscreen { 
+	position: absolute; 
+	top: -30em; 
+	left: -300em; 
+} 
+
+div#navigaatio { 
+	margin: 0; 
+	padding: .3em 0 .3em 0; 
+	background: #606595; 
+	width: 100%; 
+	text-align: center; 
+} 
+
+div#navigaatio ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+} 
+
+div#navigaatio ul li { 
+	margin: 0; 
+	padding: 0; 
+	display: inline; 
+} 
+
+div#navigaatio ul a:link{ 
+	margin: 0; 
+	padding: .3em .4em .3em .4em; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-size: medium; 
+	color: white; 
+} 
+
+div#navigaatio ul a:visited{ 
+	margin: 0; 
+	padding: .3em .4em .3em .4em; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-size: medium; 
+	color: white; 
+} 
+
+div#navigaatio ul a:active{ 
+	margin: 0; 
+	padding: .3em .4em .3em .4em; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-size: medium; 
+	color: white; 
+} 
+
+div#navigaatio ul a:hover{ 
+	margin: 0; 
+	padding: .3em .4em .3em .4em; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-size: medium; 
+	color: #f6f0cc; 
+}
